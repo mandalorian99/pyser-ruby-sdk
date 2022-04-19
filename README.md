@@ -12,7 +12,7 @@ gem 'pyser'
 
 And then execute:
 
-    $ bundle iWelcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/pyser`. To experiment with that code, run `bin/console` for an interactive prompt.nstall
+    $ bundle  install
 
 Or install it yourself as:
 
@@ -20,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-Parse pdf resume and it return json as response 
+Parse pdf resume and it return json as response
+
+```
+Pyser::Client.post(url: '....', multipart: true, body: {'pdf': resume}, headers: {content-type: '...', bearer: '....'})
+```
 
 ## Development
 
