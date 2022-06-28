@@ -1,6 +1,6 @@
 # Pyser
 
-Pyser is a official cardinal talent ruby sdk to plugin into your web app to parse resume . 
+Pyser is a ruby sdk to plugin into your web app to parse resume using 3rd party api
 
 ## Installation
 
